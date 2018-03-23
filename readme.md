@@ -55,8 +55,11 @@ Options
         the file content using base64
         -t <thread>		Indicate how many threads to run simultaneously, e.g. -t 15, default 5
         -v			Verbose output
-        --headers <headers>	Additional request headers (besides content-type, content-length, and host) in JSON format, e.g. --headers '{"X-CSRF-Token": "awesome_token", "Cookie": "sid=secret_session; admin=1;"}'
-        --body <xml>		The normal POST request body, e.g. --body "<subscribe><email>test@example.com</email><name>test</name></subscribe>", 
+        --headers <headers>	Additional request headers (besides content-type, content-length, 
+        	and host) in JSON format, e.g. --headers '{"X-CSRF-Token": "awesome_token", 
+        	"Cookie": "sid=secret_session; admin=1;"}'
+        --body <xml>		The normal POST request body, e.g. --body "<subscribe><email>test@example.com</email>
+        <name>test</name></subscribe>", 
         default: <login><username>test</username><password>test</password></login>
 
 // minimal
