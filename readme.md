@@ -42,7 +42,7 @@ $ node server.js --target 192.168.1.100
 $ node client.js -h
 
 Options
-        -h			Print this message
+        -h	Print this message
 
         -u <url>		(Required) the victim page, e.g. -u http://vulnerable.site:8080/page.php?a=1
         -w <wordlist>		(Required) the wordlist to load, e.g. -w /usr/share/wordlists/filenames.txt
