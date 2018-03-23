@@ -12,7 +12,7 @@ If other servers are parsing XML stored in your main target at a later time, you
 $ node server.js -h
 
 Options
-        -h				Print this message
+        -h			Print this message
 
         -p <port>		The listening port, e.g. -p 1337, default 8800
         --b64			Use this option if expecting file content to be passed as base64
