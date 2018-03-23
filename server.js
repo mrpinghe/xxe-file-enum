@@ -14,6 +14,23 @@ var options = argv.https ? {
 	cert: fs.readFileSync(argv.cert)
 } : {};
 
+if (argv.h || argv.help) {
+    console.log(
+        `
+Options
+        -h\t\t\tPrint this message
+
+        -p <port>\t\tThe listening port, e.g. -p 1337, default 8800
+        --b64\t\t\tUse this option if expecting file content to be passed as base64
+        --target <target_ip>\tUse this option if you want to send different dtds to different servers, e.g. send "send.dtd" only to your main target (target_ip), and send "send-alt.dtd" to any potential second order XXEs
+        --https\t\t\tUse this option if you want to start https server
+        --key <key file>\tThe key file used to start https server, e.g. --key /root/key.pem
+        --cert <cert file>\tThe cert file used to start https server, e.g --cert /root/cert.crt
+        `
+    );
+    return;
+}
+
 
 proto.createServer(options, (req, res) => {
 
