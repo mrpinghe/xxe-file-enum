@@ -12,7 +12,7 @@ If other servers are parsing XML stored in your main target at a later time, you
 $ node server.js -h
 
 Options
-        -h						Print this message
+        -h				Print this message
 
         -p <port>		The listening port, e.g. -p 1337, default 8800
         --b64			Use this option if expecting file content to be passed as base64
@@ -42,7 +42,7 @@ $ node server.js --target 192.168.1.100
 $ node client.js -h
 
 Options
-        -h	Print this message
+        -h			Print this message
 
         -u <url>		(Required) the victim page, e.g. -u http://vulnerable.site:8080/page.php?a=1
         -w <wordlist>		(Required) the wordlist to load, e.g. -w /usr/share/wordlists/filenames.txt
