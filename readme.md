@@ -19,6 +19,4 @@ This is the attack script. Configure a wordlist to use, the target URL, your C2 
 Optional configuration include: proxy, the XML in a normal request
 
 ## TODO
-- Make it easier to configure http headers, such as Cookies
-- Maybe accept command line args rather than editing source file
-- Support https
+- https proxy not working. Only http proxy atm

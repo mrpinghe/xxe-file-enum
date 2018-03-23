@@ -1,0 +1,31 @@
+{
+  "name": "xxe-file-enum",
+  "version": "0.9.0",
+  "description": "Automate brute force files using XXE with external DTD and out of band file retrieval",
+  "main": "client.js",
+  "dependencies": {
+    "async": "^2.6.0",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node client.js -h",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrpinghe/xxe-file-enum.git"
+  },
+  "keywords": [
+    "xxe",
+    "enumeration",
+    "xml",
+    "brute"
+  ],
+  "author": "Ping He",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrpinghe/xxe-file-enum/issues"
+  },
+  "homepage": "https://github.com/mrpinghe/xxe-file-enum#readme"
+}
