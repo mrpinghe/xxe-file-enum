@@ -48,7 +48,7 @@ proto.createServer(options, (req, res) => {
 			file = "./send-alt.dtd"
 		}
 
-		fs.readFile("./send.dtd", function(error, content){
+		fs.readFile(file, function(error, content){
 			res.writeHead(200, { 'Content-Type': 'application/octet-stream' });
 			res.end(content, 'utf-8');
 		});
